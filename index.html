@@ -343,7 +343,7 @@ function sendForm() {
   if (!name || !email || !msg) { alert('Por favor completa todos los campos.'); return; }
   const btn = document.querySelector('.btn-send');
   btn.textContent = 'Enviando...'; btn.disabled = true;
-  emailjs.send("service_8i9bkum","__ejs-test-mail-service__",{from_name:name,from_email:email,message:msg,to_email:"fabianix8@gmail.com"})
+  emailjs.send("service_8i9bkum","template_loef9fn",{from_name:name,from_email:email,message:msg,to_email:"fabianix8@gmail.com"})
   .then(()=>{ document.getElementById('form-fields').style.display='none'; document.getElementById('form-success').style.display='block'; })
   .catch(()=>{ btn.textContent='Enviar mensaje ✉️'; btn.disabled=false; alert('Error al enviar. Escríbeme a fabianix8@gmail.com'); });
 }
