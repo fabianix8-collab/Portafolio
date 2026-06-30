@@ -8,7 +8,7 @@ Desarrollador de software en formación, estudiante de Ingeniería en Informáti
 
 ## Proyectos destacados
 
-### 🔐 [GitScan](https://github.com/fabianix8-collab/gitscan) — [demo](https://fabianix8-collab.github.io/gitscan/)
+### 🔐 [GitScan](https://github.com/fabianix8-collab/GitScan) — [demo](https://fabianix8-collab.github.io/GitScan/)
 Analizador de seguridad para repositorios públicos de GitHub. Detecta CVEs en dependencias (vía OSV.dev), secrets expuestos por regex + entropía, y archivos sensibles committeados, con un resumen de riesgo generado por IA. Construido en JavaScript vanilla, sin backend propio — todas las llamadas van directo del navegador a las APIs públicas.
 
 ### 🛡️ [SecureDash](https://github.com/fabianix8-collab/securedash) — [demo](https://fabianix8-collab.github.io/securedash/)
